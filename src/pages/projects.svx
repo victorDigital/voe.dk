@@ -1,0 +1,13 @@
+---
+slug: 'projects'
+title: 'Projects'
+title_black: true
+author: 'Victor Østergaard'
+img_src: '/static/blur2.png'
+description: 'A collection of my projects'
+date: '21/01/2025'
+published: true
+crumbs: [{ href: '/projects', label: 'Projects'}]
+---
+
+More info on the way! Stay tuned! 🚀

@@ -1,0 +1,19 @@
+---
+slug: 'contact'
+title: 'Contact'
+title_black: true
+author: 'Victor Østergaard'
+img_src: '/static/blur1.png'
+description: 'Lets get in touch!'
+date: '21/01/2025'
+published: true
+crumbs: [{ href: '/contact', label: 'Contact'}]
+---
+
+## Email
+Feel free to reach out to me at [victor@voe.dk](mailto:victor@voe.dk)
+
+## Other platforms
+You can also find me on 
+- [LinkedIn](https://www.linkedin.com/in/victor-%C3%B8stergaard-97076929b/)
+- [GitHub](https://github.com/victorDigital)
