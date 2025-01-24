@@ -79,7 +79,7 @@
 	<div class="absolute top-0 -z-20 aspect-video w-full overflow-hidden vt-name-[cover-img]">
 		<enhanced:img
 			src={imageModules[data.frontmatter.img_src].default}
-			alt={data.frontmatter.img_alt}
+			alt="landing cover img"
 			class="w-full object-cover"
 		/>
 	</div>
