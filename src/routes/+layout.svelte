@@ -31,11 +31,11 @@
 </header>
 <Separator orientation="horizontal"></Separator>
 <div class="mx-auto flex w-full max-w-3xl flex-row">
-	<Separator orientation="vertical"></Separator>
+	<Separator class="hidden md:block" orientation="vertical"></Separator>
 	<main class="min-h-screen w-full max-w-3xl">
 		{@render children()}
 	</main>
-	<Separator orientation="vertical"></Separator>
+	<Separator class="hidden md:block" orientation="vertical"></Separator>
 </div>
 <footer class="text-center text-sm text-muted-foreground vt-name-[footer]">
 	<Separator orientation="horizontal"></Separator>
