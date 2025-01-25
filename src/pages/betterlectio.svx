@@ -1,0 +1,27 @@
+---
+title: 'BetterLectio'
+title_black: true
+author: 'Victor Østergaard'
+img_src: '/static/betlec.png'
+description: 'The Ultimate Lectio Experience - built for danish students'
+date: '25/01/2025'
+published: true
+crumbs: [{ href: '/projects', label: 'Projects'},{ href: '/betterlectio', label: 'BetterLectio'}]
+---
+
+<script>
+  import Button from '$lib/components/ui/button/button.svelte';
+</script>
+
+<Button href="https://github.com/BetterLectio/betterlectio/graphs/contributors" variant="outline" target="_blank">
+<img src="https://contrib.rocks/image?repo=BetterLectio/betterlectio" style="width: 200px;">
+</Button>
+
+BetterLectio is developed by students from HCØ in Lyngby. During our high school years, we grew tired of Lectio's shortcomings and annoyances, and we decided to do something about it. BetterLectio is the result of our work and is built to make the lives of danish students easier. With over 500 users, we are proud to have made a difference in the lives of so many students. Betterlectio offers a beautiful and intuitive interface. As well as a range of features not found in the original Lectio, such as a Google Calendar integration, a dark mode, and a user-friendly tool to find unbooked rooms automatically in your school. The project is open-source and can be found on GitHub. 
+
+From a technical perspective, BetterLectio is extremely impressive. The frontend is built with advanced caching techniques using SvelteKit, and the backend is composed of a custom web scraper using python and a REST API built with Flask. The entire project is hosted on a selfhosted dockerized server. The advanced caching techniques and the speed of svelte makes BetterLectio **faster** than the original Lectio in most cases since most data is cached on device.
+
+
+<!-- <a href="https://github.com/BetterLectio/betterlectio/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=BetterLectio/betterlectio" style="max-width: 20rem; margin: 0px 8px;">
+</a> -->

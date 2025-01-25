@@ -1,5 +1,4 @@
 ---
-slug: 'logbog-prog'
 title: 'Programmerings logbog'
 title_black: true
 author: 'Victor Østergaard'

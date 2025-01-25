@@ -1,5 +1,4 @@
 ---
-slug: 'projects'
 title: 'Projects'
 title_black: true
 author: 'Victor Østergaard'
@@ -10,4 +9,12 @@ published: true
 crumbs: [{ href: '/projects', label: 'Projects'}]
 ---
 
-More info on the way! Stay tuned! 🚀
+<script>
+  import PageRefRenderer from '$lib/components/PageRefRenderer.svelte';
+</script>
+
+## Current projects
+<PageRefRenderer href="/ordjagten" />
+
+## Past projects
+<PageRefRenderer href="/betterlectio" />

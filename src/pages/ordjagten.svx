@@ -1,0 +1,12 @@
+---
+title: 'Ordjagten'
+title_black: true
+author: 'Victor Østergaard'
+img_src: '/static/ordjagten.png'
+description: 'A challenging word game using word embeddings'
+date: '25/01/2025'
+published: true
+crumbs: [{ href: '/projects', label: 'Projects'},{ href: '/ordjagten', label: 'Ordjagten'}]
+---
+
+_More info coming soon! 🚀_

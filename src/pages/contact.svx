@@ -1,5 +1,4 @@
 ---
-slug: 'contact'
 title: 'Contact'
 title_black: true
 author: 'Victor Østergaard'
