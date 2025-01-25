@@ -51,10 +51,10 @@
 </div>
 <Separator></Separator>
 <div class="relative aspect-video overflow-hidden">
-	<div class="z-20 p-4">
+	<div class="z-20 p-2 sm:p-3 md:p-4">
 		<h1
 			class={cn(
-				'font-zen text-5xl font-black vt-name-[cover-title]',
+				'font-zen text-xl font-black vt-name-[cover-title] sm:text-2xl md:text-5xl',
 				data.frontmatter.title_black ? 'text-black' : 'text-white'
 			)}
 		>
@@ -63,13 +63,13 @@
 		<Separator
 			orientation="horizontal"
 			class={cn(
-				'mt-2 w-1/2 vt-name-[cover-separator]',
+				'mt-0.5 w-1/2 vt-name-[cover-separator] sm:mt-1 md:mt-2',
 				data.frontmatter.title_black ? 'bg-black' : 'bg-white'
 			)}
 		></Separator>
 		<p
 			class={cn(
-				'font-zen text-xl vt-name-[cover-desc]',
+				'font-zen text-sm vt-name-[cover-desc] sm:text-lg md:text-xl',
 				data.frontmatter.title_black ? 'text-black' : 'text-white'
 			)}
 		>
