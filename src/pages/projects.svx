@@ -15,6 +15,7 @@ crumbs: [{ href: '/projects', label: 'Projects'}]
 
 ## Current projects
 <PageRefRenderer href="/ordjagten" />
+<PageRefRenderer href="/wallet-open-source" />
 
 ## Past projects
 <PageRefRenderer href="/betterlectio" />
