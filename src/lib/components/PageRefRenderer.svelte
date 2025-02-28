@@ -51,7 +51,7 @@
 			<enhanced:img
 				src={imageModules[frontmatter.img_src].default}
 				alt="logo"
-				class="h-16 object-cover transition-all duration-300 md:h-24"
+				class="h-16 object-cover antialiased transition-all duration-300 md:h-24"
 			/>
 		</div>
 	{:else}

@@ -3,6 +3,7 @@
 	import Separator from '$lib/components/ui/separator/separator.svelte';
 	import * as Breadcrumb from '$lib/components/ui/breadcrumb/index';
 	import MapPinHouse from 'lucide-svelte/icons/map-pin-house';
+	import BriefcaseBusiness from 'lucide-svelte/icons/briefcase-business';
 	import GraduationCap from 'lucide-svelte/icons/graduation-cap';
 	import Brain from 'lucide-svelte/icons/brain';
 	import TentTree from 'lucide-svelte/icons/tent-tree';
@@ -41,6 +42,9 @@
 		<h2 class="font-zen text-2xl">Hi, I'm Victor</h2>
 		<p class="flex items-start *:h-[1em] *:min-w-[24px]">
 			<MapPinHouse class="mr-2 mt-1" /> Copenhagen based software engineer
+		</p>
+		<p class="flex items-start *:h-[1em] *:min-w-[24px]">
+			<BriefcaseBusiness class="mr-2 mt-1" /> Currently working as an IT consultant
 		</p>
 		<p class="flex items-start *:h-[1em] *:min-w-[24px]">
 			<GraduationCap class="mr-2 mt-1" /> Pursuing a degree in Computer Science

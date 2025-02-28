@@ -1,0 +1,51 @@
+---
+title: 'Recepts Tracker'
+title_black: true
+author: 'Victor Østergaard'
+img_src: '/static/receipts-tracker.png'
+description: 'A comprehensive tracker for your receipts'
+date: '25/01/2025'
+published: true
+crumbs: [{ href: '/projects', label: 'Projects'},{ href: '/receipts', label: 'Receipts Tracker'}]
+---
+
+<script>
+  import Button from '$lib/components/ui/button/button.svelte';
+</script>
+
+<img src="/receipts1.png" alt="overview" style="width: 100%; margin: 0 auto; display: block;">
+<br>
+
+## A Comprehensive Tracker for Your Receipts
+Hassle-free receipts management. Just scan and get moving!
+
+### Feature List
+- AI feature extraction using OpenAI 4o-mini
+- Edit any extracted information
+- Support multiple languages and currencies
+- Export to PDF
+- Responsive design for mobile and desktop
+- Easy to use interface
+- Secure google authentication
+- Usage limits
+
+### Tech Stack
+- SvelteKit
+- Drizzle ORM
+- PostgreSQL
+- MinIO
+- OpenAI API
+- Tailwind CSS
+- Shadcn UI
+- Docker
+- Coolify
+
+
+### Self-Hosted
+The entire application is self-hosted on servers within the EU using Docker and Coolify. The database and object storage are also hosted on the server for optimized performance and security.
+
+
+### Get Started
+<Button href="https://receipts.voe.dk" target="_blank" class="font-zen no-underline" size="lg">
+  Get Started
+</Button>
