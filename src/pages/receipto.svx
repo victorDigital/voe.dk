@@ -1,0 +1,134 @@
+---
+title: 'CASE: Receipto'
+title_black: true
+author: 'Victor Østergaard'
+img_src: '/static/receipto.png'
+description: 'A comprehensive AI-powered receipt management solution for businesses and individuals'
+date: '11/04/2025'
+published: true
+crumbs: [{ href: '/projects', label: 'Projects'},{ href: '/receipto', label: 'Receipto'}]
+---
+
+<script>
+  import Button from '$lib/components/ui/button/button.svelte';
+</script>
+
+<!-- <img src="/static/receipts1.png" alt="receipto overview" style="width: 100%; margin: 0 auto; display: block;">
+<br> -->
+
+## Simplifying Receipt Management
+
+In today's fast-paced business environment, managing receipts and tracking expenses remains a persistent challenge. Traditional methods are time-consuming, error-prone, and often result in lost documentation. Receipto was designed to address these fundamental pain points through a straightforward, user-friendly solution that transforms how businesses and individuals handle their financial documentation.
+
+### The Problem
+
+Before diving into the solution, it's important to understand the key challenges that users face with receipt management:
+
+1. **Time Consumption**: Manual data entry from receipts takes time away from more important activities
+2. **Disorganization**: Without a centralized system, receipts become scattered and difficult to find
+3. **Accessibility Issues**: Paper receipts can be lost, while digital receipts get buried in email inboxes
+4. **Expense Tracking Complexity**: Managing expenses across different categories and currencies creates additional hurdles
+
+### The Receipto Solution
+
+Receipto addresses these challenges with a focused set of features that streamline the entire receipt management process. The platform was designed with simplicity and efficiency in mind, focusing on the features that users need most.
+
+## Key Features
+
+### Smart Receipt Management
+
+Receipto offers an intuitive approach to receipt management:
+
+- Upload receipts instantly through your phone camera or desktop interface
+- AI automatically extracts and categorizes important information from receipts
+- Track expenses across multiple currencies with ease
+- Create tags for effortless organization
+
+<img src="/receipto2.png" alt="AI receipt scanning demo" style="width: 100%; margin: 0 auto; display: block;">
+<br>
+<img src="/receipto3.png" alt="AI receipt scanning demo" style="width: 100%; margin: 0 auto; display: block;">
+
+### Cutting Edge AI
+
+Receipto employs advanced AI recognition technology to make receipt management effortless:
+
+- Optical AI recognition automatically extracts data from receipts
+- Eliminates tedious manual data entry
+- Saves time and reduces errors in record-keeping
+
+### Export Flexibility
+
+Receipto makes it easy to use your receipt data wherever you need it:
+
+- Export receipt data in various formats including PDF and CSV
+- Seamlessly integrate with your accounting software
+- Maintain organized records for tax purposes
+
+### Intelligent Search
+
+Finding specific receipts is quick and simple:
+
+- Powerful search and filter capabilities
+- Sort by date, merchant, amount, or custom tags
+- Quickly locate any receipt when you need it
+
+### Cloud Storage
+
+Receipto ensures your data is always accessible:
+
+- Never lose a receipt again
+- All data securely stored in the cloud
+- Access from any device, anytime
+
+## Simple, Transparent Pricing
+
+Receipto offers straightforward pricing options with no hidden fees:
+
+### Free Plan
+Perfect for individuals and small businesses:
+- Manual receipts entry
+- AI receipt scanning (10 per month)
+- Fast search, sort and filtering
+- Add and manage tags
+
+### Solo Plan - $8/month
+Everything in the free plan plus:
+- AI receipt scanning (500 per month)
+- Unlimited receipt image storage
+- Advanced export options
+- Priority email support
+
+### Tailored Solutions
+For businesses with specific requirements:
+- Custom solutions for businesses of all sizes
+- Contact for more information or to book a demo
+
+## Customer Policies
+
+Receipto provides transparent policies for all customers:
+
+### Refund Policy
+- 30-day money back guarantee for new customers
+- To request a refund, contact the team with your name, email, and reason
+- Refunds processed within 3-7 business days
+
+### Subscription Management
+- Cancel your subscription anytime by logging into your account
+- Continue to access premium features until the end of your billing cycle
+- View your billing cycle in your profile page
+
+### Support Options
+- Priority email support for paid subscribers
+- No phone support currently offered
+
+## Ready to simplify your receipt management?
+
+Receipto offers everything you need to manage your business expenses efficiently. No hidden fees, no surprises - just the tools you need to streamline your financial documentation.
+
+<Button href="https://receipto.voe.dk" target="_blank" class="font-zen no-underline" size="lg">
+  Get Started Now
+</Button>
+
+<Button href="https://receipto.voe.dk/contact" target="_blank" class="font-zen no-underline ml-4" size="lg" variant="outline">
+  Contact Us
+</Button>

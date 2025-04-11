@@ -1,9 +1,9 @@
 ---
-title: 'Ordjagten'
+title: 'Ordjagten: The Word Hunt Challenge'
 title_black: true
 author: 'Victor Østergaard'
 img_src: '/static/ordjagten.png'
-description: 'A challenging word game using word embeddings'
+description: 'An innovative word game powered by AI word embeddings'
 date: '25/01/2025'
 published: true
 crumbs: [{ href: '/projects', label: 'Projects'},{ href: '/ordjagten', label: 'Ordjagten'}]
@@ -13,36 +13,101 @@ crumbs: [{ href: '/projects', label: 'Projects'},{ href: '/ordjagten', label: 'O
   import Button from '$lib/components/ui/button/button.svelte';
 </script>
 
+## Reinventing Word Games Through AI
+
+In a digital landscape filled with conventional word games, Ordjagten (Danish for "The Word Hunt") stands apart by leveraging advanced computational linguistics to create a uniquely challenging and intellectually stimulating experience. Unlike traditional word games that rely on dictionary definitions or simple letter arrangements, Ordjagten employs AI-powered word embeddings to measure the semantic distance between words, creating a game of conceptual proximity rather than just vocabulary.
+
+### The Challenge
+
+Word games typically suffer from several limitations:
+
+1. **Predictability**: Most follow established patterns that become repetitive
+2. **Limited Learning Value**: They rarely introduce players to new vocabulary relationships
+3. **Shallow Engagement**: Many games rely on chance rather than cognitive reasoning
+4. **Lack of Social Competition**: Few games effectively integrate friendly competition into the experience
+
+### The Ordjagten Solution
+
+Ordjagten addresses these challenges by creating a daily word guessing game that uses advanced linguistic models to transform how players think about language and word relationships.
+
+## Key Features
+
+### Innovative Gameplay Mechanics
+
+The core gameplay revolves around an elegant yet challenging concept:
+
+- Each day presents a new target word to discover
+- Players submit guesses and receive feedback on how semantically close they are to the target word
+- The proximity is calculated using FastText word embeddings that represent words as vectors in multi-dimensional space
+- The game rewards both vocabulary depth and understanding of conceptual relationships between words
+
+### Social Competition Elements
+
+Ordjagten enhances the gaming experience through social features:
+
+- Add friends to your network
+- View daily scores and historical performance of friends
+- Compare your solving approach with others
+- Optional anonymous play for those who prefer privacy
+
+### Secure Authentication
+
+The game provides flexible authentication options:
+
+- Secure Google authentication for a seamless login experience
+- Anonymous play for those who prefer not to create an account
+- Persistent game state across devices when logged in
+
+### Responsive Design
+
+Ordjagten is built with modern web technologies to ensure:
+
+- Fully responsive design that adapts to any screen size
+- Optimized experience for both mobile and desktop platforms
+- Intuitive touch controls for mobile users
+- Clean, distraction-free interface that focuses on gameplay
+
+## Technical Implementation
+
+### FastText Word Embeddings
+
+At the core of Ordjagten's unique gameplay experience lies its use of FastText word embeddings:
+
+- Created by Facebook's AI Research lab, FastText represents words as vectors in a 300-dimensional space
+- Words with similar meanings appear closer together in this vector space
+- This allows the game to calculate meaningful semantic distances between words
+- The implementation handles both common and rare words effectively
+
+### Modern Web Stack
+
+The game is built using a robust and modern technology stack:
+
+- **Frontend**: SvelteKit for a highly responsive and interactive UI
+- **Styling**: Tailwind CSS with Shadcn UI components for a clean, modern design
+- **Backend**: Server-side rendering and API endpoints through SvelteKit
+- **Database**: PostgreSQL managed through Drizzle ORM for type-safe queries
+- **Authentication**: OAuth integration for Google authentication
+
+### Self-Hosted Infrastructure
+
+The entire application is self-hosted for maximum control and performance:
+
+- Deployed using Docker containers for consistent environments
+- Managed through Coolify for streamlined deployment and updates
+- Database hosted on the same server for reduced latency
+- Regular backups to ensure data safety
+
+## Play Ordjagten Today
+
 <img src="/ordjagten2.png" alt="Ordjagten Game" style="width: 100%; margin: 0 auto; display: block;">
 <br>
 
-## A Challenging Word Game Using Word Embeddings
-Each day, a new word is picked and the challenge is to guess it. The game uses word embeddings provided by [FastText](https://fasttext.cc/) to calculate the distance between words. The game is designed to be challenging, so don't be surprised if you find it difficult to guess the word!
+Challenge yourself with this innovative word game that will expand your vocabulary and transform how you think about word relationships.
 
-### Feature List
-- Daily word challenge
-- Word embeddings for distance calculation
-- Responsive design for mobile and desktop
-- Easy to use interface
-- Secure google authentication
-- Anonymous play
-- Add friends
-- View friends' scores
-
-### Tech Stack
-- SvelteKit
-- Drizzle ORM
-- PostgreSQL
-- FastText
-- Tailwind CSS
-- Shadcn UI
-- Docker
-- Coolify
-
-### Self-Hosted
-The game is self-hosted on a server using Docker and Coolify. The database too is hosted on the server.
-
-### Play
 <Button href="https://ordjagten.dk" target="_blank" class="font-zen no-underline" size="lg">
   Play Now
+</Button>
+
+<Button href="https://ordjagten.dk" target="_blank" class="font-zen no-underline ml-4" size="lg" variant="outline">
+  Learn More
 </Button>

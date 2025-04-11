@@ -91,11 +91,7 @@ const config: Config = {
 			}
 		}
 	},
-	plugins: [
-		tailwindcssAnimate,
-		require('tailwindcss-view-transitions'),
-		require('@tailwindcss/typography')
-	]
+	plugins: [tailwindcssAnimate, require('@tailwindcss/typography')]
 };
 
 export default config;

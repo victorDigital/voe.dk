@@ -1,0 +1,177 @@
+---
+title: 'CASE: CodeTiles'
+title_black: true
+author: 'Victor Østergaard'
+img_src: '/static/codetiles.png'
+description: 'An innovative programming game that combines strategic thinking with coding skills'
+date: '11/04/2025'
+published: true
+crumbs: [{ href: '/projects', label: 'Projects'},{ href: '/codetiles', label: 'CodeTiles'}]
+---
+
+<script>
+  import Button from '$lib/components/ui/button/button.svelte';
+</script>
+
+## Reimagining Programming Education Through Strategic Gameplay
+
+In a world where digital literacy is increasingly crucial, CodeTiles stands out as an innovative approach to teaching programming concepts. Rather than relying on conventional programming tutorials or simplified drag-and-drop interfaces, CodeTiles immerses players in a strategic battlefield where coding skills directly translate to competitive advantage. This unique combination of strategy gaming and programming education creates an engaging platform for learning that feels more like play than study.
+
+### The Challenge
+
+Traditional programming education faces several significant hurdles:
+
+1. **Engagement Barriers**: Many learners find conventional programming education dry and disconnected from practical applications
+2. **Abstract Concepts**: Programming principles can feel overly theoretical and difficult to grasp
+3. **Limited Motivation**: Progress often lacks the immediate feedback and gratification that maintains interest
+4. **Passive Learning**: Many educational approaches fail to encourage active experimentation and problem-solving
+
+### The CodeTiles Solution
+
+CodeTiles addresses these challenges by creating a game environment where programming is the core mechanic for gameplay success. Players must master both strategic thinking and coding skills to outmaneuver opponents in a competitive battlefield setting.
+
+## Target Audience
+
+CodeTiles is primarily designed for young people aged 13-20 with an interest in strategy, technology, and problem-solving. The game appeals to individuals who enjoy competitive challenges and are motivated by experiences that blend learning with entertainment.
+
+### Player Types
+
+The game's design deliberately caters to diverse player motivations:
+
+- **Achievers**: Players focused on optimizing strategies and improving their programming skills find satisfaction in perfecting their code and climbing the leaderboards
+  
+- **Competitors**: Those who thrive on outsmarting opponents enjoy the direct competition and strategic depth that challenges their tactical thinking
+  
+- **Socializers**: Players who value the social dimension appreciate the multiplayer functionality and community aspects of comparing strategies
+  
+- **Disruptors**: Creative players who like to experiment with unique strategies and unconventional tactics discover novel approaches to gameplay challenges
+
+## Key Features
+
+### Interactive Coding Environment
+
+At the heart of CodeTiles is a sophisticated yet accessible coding interface:
+
+- Clean, intuitive editor with syntax highlighting and error detection
+- Real-time code validation to help players identify issues
+- Support for different programming approaches and strategies
+- Progressive complexity that grows with player skill
+
+### Strategic Gameplay Mechanics
+
+The game unfolds on a grid-based map with fog of war, adding layers of strategic depth:
+
+- Players program units to explore, gather resources, and engage in combat
+- Resource management requires balancing acquisition with army development
+- Various unit types offer different capabilities and strategic options
+- Tactical decision-making determines battlefield success
+
+### Multiplayer Functionality
+
+The competitive dimension enhances engagement and learning:
+
+- Real-time matches against other players test strategies under pressure
+- Ranked matchmaking ensures appropriate challenge levels
+- Spectator mode allows players to learn from others' approaches
+- Tournament support for organized competition
+
+### Comprehensive Tutorial System
+
+New players are guided through a structured learning experience:
+
+- Step-by-step introduction to game mechanics and programming concepts
+- Interactive challenges that build skills progressively
+- Contextual hints and suggestions when players struggle
+- Reference documentation for game mechanics and programming syntax
+
+### Feedback Mechanisms
+
+Learning is reinforced through clear and timely feedback:
+
+- Visual representation of code execution helps players understand their programs
+- Performance metrics highlight areas for improvement
+- Replay system allows analysis of previous matches
+- Achievement system recognizes skill development and creative solutions
+
+## Learning and Development Benefits
+
+CodeTiles is carefully designed to promote both programming skills and cognitive development:
+
+### Computational Thinking
+
+The game naturally encourages fundamental programming concepts:
+
+- Algorithmic thinking through sequential instruction design
+- Abstraction by handling complex systems with simplified commands
+- Pattern recognition in identifying effective strategies
+- Decomposition by breaking down complex problems into manageable parts
+
+### Strategic Thinking
+
+Players develop valuable cognitive skills through gameplay:
+
+- Decision-making under uncertainty and incomplete information
+- Resource optimization and prioritization
+- Predictive analysis of opponent behavior
+- Adaptation to changing circumstances
+
+### Engagement Through Game Mechanics
+
+The game leverages proven engagement techniques:
+
+- Immediate feedback loops that reinforce learning
+- Progressive challenge that maintains the flow state
+- Social comparison through rankings and replays
+- Autonomy in developing personal strategies and approaches
+
+## Technical Implementation
+
+### Technology Stack
+
+CodeTiles is built on a modern, robust technology foundation:
+
+#### Frontend
+- **SvelteKit**: For reactive, efficient UI development
+- **TypeScript**: Ensuring type safety and code quality
+- **TailwindCSS**: For consistent, responsive styling
+- **Bits-UI**: Component library for accessible UI elements
+- **Monaco/Shiki**: Powering the code editor with syntax highlighting
+- **Paneforge**: Managing split-pane interfaces
+- **Vite**: For fast development and optimized builds
+
+#### Backend
+- **Deno**: Secure JavaScript runtime for server operations
+- **PostgreSQL**: Reliable database for game state and user data
+- **Drizzle ORM**: Type-safe database queries and schema management
+- **Oslojs**: Custom framework for game logic processing
+- **Docker**: Containerized deployment for consistency and scalability
+- **Ubuntu**: Stable server environment
+
+#### Development Tools
+- **Git/GitHub**: Version control and collaboration
+- **Playwright**: Automated testing for UI and game mechanics
+
+### Development Process
+
+The development of CodeTiles followed an agile Scrum framework:
+
+- Iterative development cycles with regular playtest feedback
+- Continuous integration ensuring code quality and stability
+- Cross-functional team collaboration between game designers and developers
+- User-centered design principles prioritizing player experience
+
+## Play CodeTiles Today
+
+Challenge yourself with this innovative gaming experience that transforms programming learning into strategic competition.
+
+<Button href="https://codetiles.voe.dk" target="_blank" class="font-zen no-underline" size="lg">
+  Play Now
+</Button>
+
+<Button href="https://codetiles.voe.dk/about" target="_blank" class="font-zen no-underline ml-4" size="lg" variant="outline">
+  Learn More
+</Button>
+
+
+## Made by
+Aske, Gustav, August and Victor
