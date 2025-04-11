@@ -55,9 +55,18 @@
 			/>
 		</div>
 	{:else}
-		<Skeleton class="h-5 w-3/4 *:my-0 md:w-1/2"></Skeleton>
+		<noscript>
+			<div class="w-full">
+				<div>
+					<p class="m-0 mb-1 line-clamp-1 break-words leading-tight">Visit {href}</p>
+					<p class="m-0 line-clamp-1 hidden break-words text-xs opacity-75 md:block">
+						This content requires JavaScript to load details
+					</p>
+				</div>
+			</div>
+		</noscript>
+		<div></div>
 		<Skeleton class="aspect-square h-16 *:my-0 md:aspect-video md:h-24"></Skeleton>
-		<!-- else content here -->
 	{/if}
 </a>
 <Separator class="!mx-0 px-0" orientation="horizontal"></Separator>
