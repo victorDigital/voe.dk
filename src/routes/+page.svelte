@@ -23,10 +23,10 @@
 <enhanced:img
 	src="/static/home.png"
 	alt="landing cover img"
-	class="w-full bg-cover vt-name-[cover-img]"
+	class="vt-name-[cover-img] w-full bg-cover"
 />
 <Separator orientation="horizontal" class="mb-4"></Separator>
-<div class="w-full vt-name-[main-content]">
+<div class="vt-name-[main-content] w-full">
 	<span class="mx-4 font-mono text-xs text-muted-foreground">MY MISSION</span>
 	<h1 class="px-4 font-zen text-4xl font-black text-white">Building the Websites of Tomorrow</h1>
 	<Separator orientation="horizontal" class="mt-4"></Separator>
@@ -65,5 +65,4 @@
 		<Button variant="ghost" href="/cv.pdf" target="_blank">View</Button>
 	</div>
 	<Separator orientation="horizontal" class="my-4"></Separator>
-	<p class="text-center">More coming soon</p>
 </div>

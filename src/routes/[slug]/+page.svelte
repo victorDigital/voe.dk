@@ -29,6 +29,10 @@
 	);
 </script>
 
+<svelte:head>
+	<title>{data.frontmatter.title} // {data.frontmatter.description}</title>
+</svelte:head>
+
 <!-- <PageHead title={data.frontmatter.title} description={data.frontmatter.description} />
 <ArticleTitle title={data.frontmatter.title} />
 <ArticleMeta author={data.frontmatter.author} date={data.frontmatter.date} /> -->
