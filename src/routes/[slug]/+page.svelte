@@ -2,6 +2,7 @@
 	import Separator from '$lib/components/ui/separator/separator.svelte';
 	import type { PageData } from './$types';
 	import * as Breadcrumb from '$lib/components/ui/breadcrumb/index.js';
+	import Slash from 'lucide-svelte/icons/slash';
 	import { cn } from '$lib/utils';
 
 	/* 	import PageHead from '$lib/components/PageHead.svelte';
@@ -37,13 +38,17 @@
 			<Breadcrumb.Item>
 				<Breadcrumb.Link href="/">Home</Breadcrumb.Link>
 			</Breadcrumb.Item>
-			<Breadcrumb.Separator />
+			<Breadcrumb.Separator>
+				<Slash />
+			</Breadcrumb.Separator>
 			{#each crumbs as crumb, i}
 				<Breadcrumb.Item>
 					<Breadcrumb.Link href={crumb.href}>{crumb.label}</Breadcrumb.Link>
 				</Breadcrumb.Item>
 				{#if i < crumbs.length - 1}
-					<Breadcrumb.Separator />
+					<Breadcrumb.Separator>
+						<Slash />
+					</Breadcrumb.Separator>
 				{/if}
 			{/each}
 		</Breadcrumb.List>
@@ -54,7 +59,7 @@
 	<div class="z-20 p-2 sm:p-3 md:p-4">
 		<h1
 			class={cn(
-				'font-zen text-xl font-black vt-name-[cover-title] sm:text-2xl md:text-5xl',
+				'vt-name-[cover-title] font-zen text-xl font-black sm:text-2xl md:text-5xl',
 				data.frontmatter.title_black ? 'text-black' : 'text-white'
 			)}
 		>
@@ -63,20 +68,20 @@
 		<Separator
 			orientation="horizontal"
 			class={cn(
-				'mt-0.5 w-1/2 vt-name-[cover-separator] sm:mt-1 md:mt-2',
+				'vt-name-[cover-separator] mt-0.5 w-1/2 sm:mt-1 md:mt-2',
 				data.frontmatter.title_black ? 'bg-black' : 'bg-white'
 			)}
 		></Separator>
 		<p
 			class={cn(
-				'font-zen text-sm vt-name-[cover-desc] sm:text-lg md:text-xl',
+				'vt-name-[cover-desc] font-zen text-sm sm:text-lg md:text-xl',
 				data.frontmatter.title_black ? 'text-black' : 'text-white'
 			)}
 		>
 			{data.frontmatter.description}
 		</p>
 	</div>
-	<div class="absolute top-0 -z-20 aspect-video w-full overflow-hidden vt-name-[cover-img]">
+	<div class="vt-name-[cover-img] absolute top-0 -z-20 aspect-video w-full overflow-hidden">
 		<enhanced:img
 			src={imageModules[data.frontmatter.img_src].default}
 			alt="landing cover img"
@@ -86,7 +91,7 @@
 </div>
 
 <article
-	class="prose prose-zinc prose-invert mb-96 w-full max-w-full py-4 text-lg vt-name-[main-content] *:mx-2 prose-headings:font-zen prose-pre:mx-0 prose-pre:rounded-none prose-pre:border-b-[1px] prose-pre:border-t-[1px]"
+	class="vt-name-[main-content] prose prose-zinc prose-invert mb-96 w-full max-w-full py-4 text-lg *:mx-2 prose-headings:font-zen prose-pre:mx-0 prose-pre:rounded-none prose-pre:border-b-[1px] prose-pre:border-t-[1px]"
 >
 	{@render component()}
 </article>
